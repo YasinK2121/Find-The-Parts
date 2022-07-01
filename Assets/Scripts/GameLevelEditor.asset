@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e445b0cfde6832e4ea423d6b913dc1b5, type: 3}
+  m_Name: GameLevelEditor
+  m_EditorClassIdentifier: 
+  wordData:
+  - trackName: BODY
+    no: 0
+    lettersToDisplay: 00000000
+    cameraRot: {x: 0, y: 145, z: 0}
+    cameraSize: 3
+  - trackName: BUMPERS
+    no: 1
+    lettersToDisplay: 03000000
+    cameraRot: {x: 0, y: 68, z: 0}
+    cameraSize: 3
+  - trackName: DOOR HANDLE
+    no: 2
+    lettersToDisplay: 0000000005000000
+    cameraRot: {x: 35, y: -17, z: 0}
+    cameraSize: 0.57
+  - trackName: DOORS
+    no: 3
+    lettersToDisplay: 02000000
+    cameraRot: {x: 0, y: 44, z: 0}
+    cameraSize: 3
+  - trackName: ENGINE
+    no: 4
+    lettersToDisplay: 02000000
+    cameraRot: {x: 17, y: 90, z: 0}
+    cameraSize: 1.3
+  - trackName: EXHAUST
+    no: 5
+    lettersToDisplay: 0000000001000000
+    cameraRot: {x: 12, y: 280, z: 0}
+    cameraSize: 1.6
+  - trackName: HOOD
+    no: 6
+    lettersToDisplay: 0200000005000000
+    cameraRot: {x: 17, y: 90, z: 0}
+    cameraSize: 1.3
+  - trackName: LICENCE PLATE
+    no: 7
+    lettersToDisplay: 000000000500000008000000
+    cameraRot: {x: 10, y: 90, z: 0}
+    cameraSize: 1.2
+  - trackName: LIGHTS
+    no: 8
+    lettersToDisplay: 05000000
+    cameraRot: {x: 12, y: 90, z: 0}
+    cameraSize: 1.2
+  - trackName: MIRROR
+    no: 9
+    lettersToDisplay: 0300000004000000
+    cameraRot: {x: 23, y: 60, z: 0}
+    cameraSize: 1.8
+  - trackName: SUNROOF
+    no: 10
+    lettersToDisplay: 0000000006000000
+    cameraRot: {x: 65, y: 90, z: 0}
+    cameraSize: 1.2
+  - trackName: TRUNK
+    no: 16
+    lettersToDisplay: 0000000001000000
+    cameraRot: {x: 13, y: 270, z: 0}
+    cameraSize: 1.2
+  - trackName: WHEELS
+    no: 12
+    lettersToDisplay: 04000000
+    cameraRot: {x: 0, y: 44, z: 0}
+    cameraSize: 3
+  - trackName: WINDOWS
+    no: 13
+    lettersToDisplay: 0000000005000000
+    cameraRot: {x: 0, y: 44, z: 0}
+    cameraSize: 3
+  levelData:
+  - levelCount: LEVEL1
+    trackCount: 0c000000
+  - levelCount: LEVEL2
+    trackCount: 0b000000
+  - levelCount: LEVEL3
+    trackCount: 0700000005000000
+  - levelCount: LEVEL4
+    trackCount: 0400000006000000
+  - levelCount: LEVEL5
+    trackCount: 0c0000000800000007000000
+  - levelCount: LEVEL6
+    trackCount: 000000000d0000000b000000
+  - levelCount: LEVEL7
+    trackCount: 03000000040000000600000005000000
+  - levelCount: LEVEL8
+    trackCount: 0c0000000d000000070000000b000000
+  - levelCount: LEVEL9
+    trackCount: 0000000003000000
+  - levelCount: LEVEL10
+    trackCount: 0c0000000400000005000000
+  - levelCount: LEVEL11
+    trackCount: 0b0000000800000003000000
+  - levelCount: LEVEL12
+    trackCount: 00000000040000000c0000000700000005000000
+  - levelCount: LEVEL13
+    trackCount: 0c0000000b0000000d000000
+  - levelCount: LEVEL14
+    trackCount: 04000000060000000800000005000000
+  - levelCount: LEVEL15
+    trackCount: 00000000030000000c00000007000000
+  - levelCount: LEVEL16
+    trackCount: 0c00000003000000060000000b00000008000000
+  - levelCount: LEVEL17
+    trackCount: 080000000300000007000000
+  - levelCount: LEVEL18
+    trackCount: 04000000060000000c0000000d000000
+  - levelCount: LEVEL19
+    trackCount: 00000000030000000d0000000b00000005000000
+  - levelCount: LEVEL20
+    trackCount: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d000000
+  vehicleData:
+  - vehicleName: CAR
+    vehicle: {fileID: 6723999789932868143, guid: 5ba3825fdb0ccb6499937e348c81f05e,
+      type: 3}
+    howLevel: 20
